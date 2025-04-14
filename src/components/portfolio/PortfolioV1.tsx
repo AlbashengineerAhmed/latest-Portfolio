@@ -22,7 +22,7 @@ const PortfolioV1 = ({ sectionClass, hasTitle }: DataType) => {
   }, [initialCount]);
 
   const handleLoadMore = () => {
-    setVisibleImagesCount((prevCount) =>
+    setVisibleImagesCount((prevCount: number) =>
       Math.min(prevCount + 9, PortfolioData.length)
     );
   };

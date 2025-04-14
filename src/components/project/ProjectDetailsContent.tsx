@@ -2,14 +2,37 @@ import { Link, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import productdetails from "../../assets/jsonData/portfolio/PortfolioData.json";
 
-const ProjectDetailsContent = () => {
-  const { id } = useParams(); // Get the project ID from the URL
-  const projectData = productdetails.find(
+// Define the prop types correctly
+interface ProjectDetailsContentProps {
+  projectData: {
+    id: number;
+    thumb: string;
+    thumbFull: string;
+    tags: string[];
+    title: string;
+    client: string;
+    date: string;
+    service: string;
+    address: string;
+    description: string;
+    background: string;
+    challenges: string[];
+    github: string;
+    demo: string;
+    solution: string[];
+    images: string[];
+  };
+}
+
+const ProjectDetailsContent: React.FC<ProjectDetailsContentProps> = ({
+  projectData,
+}) => {
+  const { id } = useParams();
+  const ProjectData = productdetails.find(
     (project) => project.id === Number(id)
   );
 
-  // Redirect if project not found
-  if (!projectData) {
+  if (!ProjectData) {
     return <h2>Project not found</h2>;
   }
 
@@ -26,20 +49,18 @@ const ProjectDetailsContent = () => {
     images,
   } = projectData;
 
-  // Image Scroll Animation
   const [scroll, setScroll] = useState(0);
+
   useEffect(() => {
     const handleScroll = () => setScroll(window.scrollY);
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Find current project index
   const currentIndex = productdetails.findIndex(
     (project) => project.id === Number(id)
   );
 
-  // Get previous and next projects
   const prevProject =
     currentIndex > 0 ? productdetails[currentIndex - 1] : null;
   const nextProject =

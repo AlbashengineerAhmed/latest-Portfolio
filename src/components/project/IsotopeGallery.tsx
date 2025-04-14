@@ -42,7 +42,6 @@ const IsotopeGallery = ({
 
   const handleLoadMore = () => {
     const nextCount = visibleImagesCount + 3;
-
     if (nextCount >= 9 && !isProjectsPage) {
       navigate("/projects", { state: { initialCount: nextCount } });
     } else {
