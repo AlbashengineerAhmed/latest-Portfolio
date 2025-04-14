@@ -117,7 +117,7 @@ const IsotopeGallery = ({
       {!isProjectsPage &&
         enableLoadMore &&
         visibleImagesCount < PortfolioData.length && (
-          <div className="text-center mt-4">
+          <div className="text-center mt-5">
             <button onClick={handleLoadMore}>Load More</button>
           </div>
         )}
