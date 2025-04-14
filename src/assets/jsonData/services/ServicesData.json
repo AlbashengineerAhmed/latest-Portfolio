@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "activeClass": "active",
+    "icon": "frontend.png",
+    "title": "Modern Frontend Development",
+    "text": "Building high-performance, scalable, and responsive web applications with React, Next.js, and TypeScript.",
+    "btnText": "Explore More",
+    "delay": "100ms"
+  },
+  {
+    "id": 2,
+    "activeClass": "",
+    "icon": "uiux.png",
+    "title": "UI/UX & Interactive Design",
+    "text": "Crafting stunning, user-friendly interfaces with Figma, Tailwind CSS, Material UI, and smooth animations.",
+    "btnText": "View Work",
+    "delay": "200ms"
+  },
+  {
+    "id": 3,
+    "activeClass": "",
+    "icon": "performance.png",
+    "title": "Performance & State Management",
+    "text": "Optimizing applications with Redux, Context API, and advanced performance techniques for seamless user experience.",
+    "btnText": "Optimize Now",
+    "delay": "300ms"
+  },
+  {
+    "id": 4,
+    "activeClass": "",
+    "icon": "code.png",
+    "title": "Scalable & Maintainable Code",
+    "text": "Writing clean, structured, and maintainable code using TypeScript, Git, and best development practices.",
+    "btnText": "Discover More",
+    "delay": "400ms"
+  }
+]

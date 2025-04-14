@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "thumb": "1.webp",
+    "tag": "React",
+    "date": "April 15, 2025",
+    "title": "The Power of Concurrent Mode in React 18: Revolutionizing UI Rendering",
+    "animationDelay": "100ms"
+  },
+  {
+    "id": 2,
+    "thumb": "2.webp",
+    "tag": "Next.js",
+    "date": "April 18, 2025",
+    "title": "How Next.js 15 Boosts Performance with Server-Side Rendering",
+    "animationDelay": "200ms"
+  },
+  {
+    "id": 3,
+    "thumb": "3.webp",
+    "tag": "TypeScript",
+    "date": "April 20, 2025",
+    "title": "TypeScript 5.0: Enhancing Development with Smarter Type Inference",
+    "animationDelay": "300ms"
+  },
+  {
+    "id": 4,
+    "thumb": "4.webp",
+    "tag": "React",
+    "date": "April 22, 2025",
+    "title": "Using React Suspense with Concurrent Mode for Faster UIs",
+    "animationDelay": "400ms"
+  },
+  {
+    "id": 5,
+    "thumb": "5.jpg",
+    "tag": "Next.js",
+    "date": "April 24, 2025",
+    "title": "Optimizing Images in Next.js for Fast Loading Times",
+    "animationDelay": "500ms"
+  },
+  {
+    "id": 6,
+    "thumb": "6.png",
+    "tag": "TypeScript",
+    "date": "April 26, 2025",
+    "title": "Integrating TypeScript with React for Safe and Scalable Apps",
+    "animationDelay": "600ms"
+  }
+]

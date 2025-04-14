@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "thumb": "ecommerce-thumbnail.png",
+    "thumbFull": "ecommerce-full.png",
+    "tags": ["Web", "React", "E-commerce", "Redux"],
+    "title": "E-Commerce Web Application",
+    "client": "ABC E-commerce",
+    "date": "2023-01-15",
+    "service": "Web Development",
+    "address": "Cairo, Egypt",
+    "description": "Developed a comprehensive e-commerce platform using Redux for state management, featuring a full set of functionalities including user authentication, product management, shopping cart, order tracking, and secure checkout. The platform was designed to provide a seamless shopping experience for users, while the admin dashboard allows full CRUD functionality to manage products, orders, categories, and user accounts. Implemented role-based access control (RBAC) for enhanced security and to allow multiple user levels such as admins and customers. The application was fully responsive, ensuring that users could easily browse products, read reviews, manage their shopping cart, and track orders on mobile devices. Additionally, the checkout process was optimized for smooth payments, and the system integrated with a secure payment gateway. Integrated real-time notifications and live order status updates further improved user engagement. This project also served as a model for other e-commerce applications, allowing me to apply similar techniques in subsequent projects.",
+    "background": "The client needed a robust and scalable e-commerce platform for managing online sales.",
+    "challenges": [
+      "Building a secure authentication system",
+      "Ensuring smooth performance on mobile devices",
+      "Optimizing the checkout process for faster conversions"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/eCommerce-Redux.git",
+    "demo": "https://e-commerce-redux-chi.vercel.app/",
+    "solution": [
+      "Used Redux for state management across the app",
+      "Implemented responsive UI to ensure mobile compatibility",
+      "Optimized the payment gateway for faster checkout"
+    ],
+    "images": ["ecommerce-1.png", "ecommerce-2.png"]
+  },
+  {
+    "id": 2,
+    "thumb": "facebook-clone-thumbnail.png",
+    "thumbFull": "facebook-clone-full.png",
+    "tags": ["Web", "React", "Social Media", "Redux"],
+    "title": "Facebook Clone",
+    "client": "Social Media Corp",
+    "date": "2023-04-10",
+    "service": "App Development",
+    "address": "Cairo, Egypt",
+    "description": "Built a secure, feature-rich social media platform using React and Redux, with essential features such as user registration, login, profile management, real-time news feed, and user interactions. Implemented efficient routing with access controls for profile, friends, and home sections. Designed a responsive interface that allows users to navigate through their social feed, create posts, add friends, and interact with others. Added dynamic content support for a personalized user experience and integrated real-time notifications for new messages, friend requests, and comments. Developed a secure authentication system to ensure safe access to user data. This project also provided the foundation for future social media apps by refining features like content management, profile creation, and real-time updates. The experience gained from this project led directly to developing real-time communication features for other platforms, including movie apps and educational platforms.",
+    "background": "The client needed a platform for connecting people and sharing content securely.",
+    "challenges": [
+      "Handling real-time content updates",
+      "Implementing secure user authentication",
+      "Designing an intuitive UI"
+    ],
+    "github": "https://mediaapp-frontend-two.vercel.app/",
+    "demo": "https://github.com/AlbashengineerAhmed/Facebook-Frontend.git",
+    "solution": [
+      "Used Firebase for real-time data updates",
+      "Implemented JWT for secure authentication",
+      "Designed a mobile-first responsive UI"
+    ],
+    "images": ["facebook-clone-1.png", "facebook-clone-2.png"]
+  },
+  {
+    "id": 3,
+    "thumb": "next-auth-supabase-thumbnail.png",
+    "thumbFull": "next-auth-supabase-full.png",
+    "tags": ["Next.js", "Supabase", "TypeScript", "TailwindCSS", "SSR"],
+    "title": "Full Auth Flow - Supabase & Next.js",
+    "client": "Personal Project",
+    "date": "2024-01-20",
+    "service": "Full Stack Development",
+    "address": "Cairo, Egypt",
+    "description": "This project features a fully functional authentication flow using Supabase and Next.js App Router. It supports user registration, login, password reset, and secure session management. TailwindCSS and Geist UI were used to create a mobile-friendly and elegant interface, while Supabase handles all backend auth logic with real-time syncing. Built with TypeScript and server-side rendering (SSR) for performance and scalability.",
+    "background": "The project was created to learn how to integrate Supabase with Next.js App Router for a complete, secure auth system.",
+    "challenges": [
+      "Handling server-side sessions securely",
+      "Implementing a smooth forgot/reset password flow",
+      "Creating a mobile-first and elegant UI with reusable components"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/supabase-auth-app.git",
+    "demo": "https://supabase-auth-app-green.vercel.app/",
+    "solution": [
+      "Implemented Supabase Auth for signup, login, and password reset",
+      "Used TailwindCSS and Geist UI to build a responsive and polished layout",
+      "Managed sessions using server-side logic with Next.js App Router"
+    ],
+    "images": ["next-auth-1.png", "next-auth-2.png"]
+  },
+  {
+    "id": 4,
+    "thumb": "movie-app-thumbnail.png",
+    "thumbFull": "movie-app-full.png",
+    "tags": ["Web", "React", "Movie App"],
+    "title": "Movie App",
+    "client": "Entertainment Corp",
+    "date": "2023-05-25",
+    "service": "App Development",
+    "address": "Cairo, Egypt",
+    "description": "Developed a dynamic and feature-packed e-commerce platform using React Context API for state management, designed to improve the user experience and ease of access. The platform includes user authentication, product browsing, shopping cart functionality, a Wishlist, and order management. Real-time updates of product availability, live order tracking, and instant payment processing were integrated into the app. By using Context API, the app efficiently manages state across different sections, ensuring smooth performance and faster load times. Implemented JWT-based authentication for secure login and registration, and role-based access for managing sensitive data. This project highlights the importance of responsive design, as it was tailored to be mobile-first and offers a seamless experience for users across devices. This project also ties into other e-commerce solutions I’ve developed, sharing common patterns in product management and secure transaction handling.",
+    "background": "The client needed a platform for browsing movies and TV shows securely and interactively.",
+    "challenges": [
+      "Integrating APIs for real-time data",
+      "Managing user data securely",
+      "Ensuring performance with a large dataset"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/Foxe-Movie.git",
+    "demo": "https://foxe-movie.onrender.com",
+    "solution": [
+      "Integrated APIs to fetch real-time data on movies and TV shows",
+      "Used JWT for secure user authentication",
+      "Optimized performance by lazy loading content"
+    ],
+    "images": ["movie-app-1.png", "movie-app-2.png"]
+  },
+  {
+    "id": 5,
+    "thumb": "ecommerce-context-api-thumbnail.png",
+    "thumbFull": "ecommerce-context-api-full.png",
+    "tags": ["Web", "React", "E-commerce", "Context API"],
+    "title": "E-Commerce",
+    "client": "XYZ E-commerce",
+    "date": "2023-06-10",
+    "service": "Web Development",
+    "address": "London, UK",
+    "description": "Developed a dynamic and feature-packed e-commerce platform using React Context API for state management, designed to improve the user experience and ease of access. The platform includes user authentication, product browsing, shopping cart functionality, a Wishlist, and order management. Real-time updates of product availability, live order tracking, and instant payment processing were integrated into the app. By using Context API, the app efficiently manages state across different sections, ensuring smooth performance and faster load times. Implemented JWT-based authentication for secure login and registration, and role-based access for managing sensitive data. This project highlights the importance of responsive design, as it was tailored to be mobile-first and offers a seamless experience for users across devices. This project also ties into other e-commerce solutions I’ve developed, sharing common patterns in product management and secure transaction handling.",
+    "background": "The client needed a user-friendly e-commerce platform with smooth user authentication, shopping cart features, and a responsive interface.",
+    "challenges": [
+      "Building a dynamic user interface",
+      "Implementing secure and scalable authentication",
+      "Ensuring a smooth checkout process"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/Sure-Buy.git",
+    "demo": "https://sure-buy.onrender.com",
+    "solution": [
+      "Implemented Context API for state management across the platform",
+      "Used JWT authentication for secure login and registration",
+      "Designed a mobile-first responsive UI with real-time order processing"
+    ],
+    "images": ["ecommerce-context-api-1.png", "ecommerce-context-api-2.png"]
+  },
+  {
+    "id": 6,
+    "thumb": "Furniture-Commerce-thumbnail.png",
+    "thumbFull": "Furniture-Commerce-full.png",
+    "tags": ["React", "Bootstrap"],
+    "title": "Furniture-Commerce",
+    "client": "Academy",
+    "date": "2023-09-01",
+    "service": "Web Application",
+    "address": "Cairo, Egypt",
+    "description": "Developed a modern furniture e-commerce platform employing React, Bootstrap, Formik, axios, and secure authentication using jwt-decode.",
+    "background": "Designed to create a seamless and secure shopping experience with a modern feel.",
+    "challenges": ["Data handling", "UI consistency", "Form validation"],
+    "github": "https://github.com/AlbashengineerAhmed/furniture-commerce.git",
+    "demo": "https://furniture-commerce-gilt.vercel.app/",
+    "solution": [
+      "Axios for API handling",
+      "Formik + JWT for secure forms",
+      "React Router for navigation"
+    ],
+    "images": ["furniture-commerce-1.png", "furniture-commerce-1.png"]
+  },
+  {
+    "id": 7,
+    "thumb": "caferio-thumbnail.png",
+    "thumbFull": "caferio-full.png",
+    "tags": ["Web", "Tailwind", "JavaScript"],
+    "title": "Caferio - Online Food Ordering",
+    "client": "Caferio",
+    "date": "2023-08-01",
+    "service": "Web Development",
+    "address": "Cairo, Egypt",
+    "description": "A stylish online food ordering website with a modern UI built using Tailwind CSS and JavaScript.",
+    "background": "The project aimed to provide a seamless food ordering experience with a focus on aesthetics and ease of use.",
+    "challenges": ["Clean UI design", "Responsive layout", "Fast load time"],
+    "github": "https://github.com/AlbashengineerAhmed/caferio-online-food.git",
+    "demo": "https://caferio-online-food.vercel.app/",
+    "solution": [
+      "Tailwind CSS for modern styling",
+      "Responsive design",
+      "Vanilla JavaScript for interactivity"
+    ],
+    "images": ["caferio-1.png", "caferio-2.png"]
+  },
+  {
+  "id": 8,
+  "thumb": "newhome-thumbnail.png",
+  "thumbFull": "newhome-full.png",
+  "tags": ["Web", "HTML5", "CSS3", "Responsive Design", "FontAwesome"],
+  "title": "New Home - Real Estate Listings",
+  "client": "Personal Project",
+  "date": "2024-02-28",
+  "service": "Frontend Web Development",
+  "address": "Cairo, Egypt",
+  "description": "New Home is a sleek, mobile-first real estate platform designed to showcase real-time property listings with a user-friendly and modern interface. Built using HTML5, CSS3, and enhanced with FontAwesome icons, this website offers smooth navigation, interactive user reviews, and a fully responsive layout. The focus was on building a visually engaging and accessible user experience that works beautifully on all devices.",
+  "background": "The goal was to create a real estate landing site that emphasizes both style and usability, providing essential features like live listings and interactive reviews in a minimal, easy-to-browse format.",
+  "challenges": [
+    "Ensuring consistent responsiveness across devices",
+    "Designing an intuitive interface for listing navigation",
+    "Integrating interactive features like user reviews without frameworks"
+  ],
+  "github": "https://github.com/AlbashengineerAhmed/Master-Baytak-Aljadeed.git",
+  "demo": "https://albashengineerahmed.github.io/Master-Baytak-Aljadeed/",
+  "solution": [
+    "Used a mobile-first approach to create a seamless responsive layout",
+    "Leveraged FontAwesome for visual clarity and iconography",
+    "Built a static real estate experience optimized for fast browsing"
+  ],
+  "images": ["newhome-1.png", "newhome-2.png"]
+  },
+  {
+    "id": 9,
+    "thumb": "creative-agency-thumbnail.png",
+    "thumbFull": "creative-agency-full.png",
+    "tags": ["Web", "HTML", "CSS", "Bootstrap"],
+    "title": "Creative Agency Website",
+    "client": "Personal Project",
+    "date": "2023-03-01",
+    "service": "Landing Page",
+    "address": "Cairo, Egypt",
+    "description": "Designed and developed a fully responsive website for a creative agency. Features elegant animations, clean layout, and modern design trends.",
+    "background": "Showcase agency brand and services through clean design.",
+    "github": "https://github.com/AlbashengineerAhmed/creative-agency.git",
+    "demo": "https://albashengineerahmed.github.io/creative-agency/",
+    "challenges": [
+      "Responsive design",
+      "Layout consistency",
+      "Engaging visuals"
+    ],
+    "solution": [
+      "HTML5 + CSS3 + Bootstrap",
+      "Optimized for all devices",
+      "Interactive elements"
+    ],
+    "images": ["creative-agency-1.png", "creative-agency-2.png"]
+  },
+  {
+    "id": 10,
+    "thumb": "educational-center-platform-thumbnail.png",
+    "thumbFull": "educational-center-platform-full.png",
+    "tags": ["Web", "React", "Education", "Platform"],
+    "title": "Educational Center Platform",
+    "client": "EdTech Co.",
+    "date": "2023-07-01",
+    "service": "Platform Development",
+    "address": "San Francisco, USA",
+    "description": "Developed an educational platform with user authentication, personalized learning paths, content management, and real-time updates. The platform allows students to access educational content based on their learning preferences and progress. With features like quizzes, progress tracking, and interactive content, students are able to engage with their studies in a more personalized way. Real-time updates and content management systems were integrated, ensuring that students have access to the most up-to-date resources. A mobile-first design ensures that students can access the platform on any device, anywhere. This platform also ties into my previous work on e-commerce and entertainment apps by focusing on personalized content delivery, dynamic data handling, and secure user profiles. The combination of education and technology is an area I’m passionate about, and this project allowed me to develop more advanced features like personalized learning experiences and real-time content management.",
+    "background": "The client needed an educational platform that could offer personalized learning experiences with real-time updates and content management.",
+    "challenges": [
+      "Providing personalized content recommendations",
+      "Ensuring secure user data handling",
+      "Building a scalable platform for multiple users"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/educational-center.git",
+    "demo": "https://education-oqxn.onrender.com",
+    "solution": [
+      "Used JWT authentication for secure login and registration",
+      "Developed real-time content management features",
+      "Designed a responsive interface optimized for mobile learning"
+    ],
+    "images": ["educational-center-1.png", "educational-center-2.png"]
+  },
+  {
+    "id": 11,
+    "thumb": "saraha-thumbnail.png",
+    "thumbFull": "saraha-full.png",
+    "tags": ["React", "JWT", "Axios", "Bootstrap", "Joi", "Moment.js"],
+    "title": "Saraha - Anonymous Messaging App",
+    "client": "Personal Project",
+    "date": "2023-11-15",
+    "service": "Frontend Development",
+    "address": "Cairo, Egypt",
+    "description": "Saraha is a simple anonymous messaging application built using React. It allows users to register, log in, and send/receive anonymous messages. The project implements robust authentication with JWT and features form validation using Joi, protected routes, and toast notifications. It's designed as a clean and lightweight platform focused on security and user interaction.",
+    "background": "The goal was to build a simple app to experiment with token-based authentication and frontend best practices in real-world conditions.",
+    "challenges": [
+      "Implementing secure token-based authentication",
+      "Managing protected routes for different user states",
+      "Validating user inputs effectively"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/saraha-frontend.git",
+    "demo": "https://saraha-frontend.vercel.app/",
+    "solution": [
+      "Used JWT for secure authentication and route protection",
+      "Integrated Joi for robust frontend form validation",
+      "Implemented real-time feedback using toast notifications and Moment.js for message timestamps"
+    ],
+    "images": ["saraha-1.png", "saraha-2.png"]
+  },
+  {
+    "id": 12,
+    "thumb": "note-app-thumbnail.png",
+    "thumbFull": "note-app-full.png",
+    "tags": ["Web", "React", "Notes", "Formik", "Yup"],
+    "title": "Note App",
+    "client": "Route Academy",
+    "date": "2023-07-01",
+    "service": "Web App",
+    "address": "Cairo, Egypt",
+    "description": "Built a secure note app with CRUD operations, user authentication, Formik & Yup validation, and responsive design with React Toastify notifications.",
+    "background": "Needed a secure note manager with mobile access and intuitive UI.",
+    "challenges": ["Validation", "Authentication", "Mobile UI"],
+    "github": "https://github.com/AlbashengineerAhmed/note-frontend.git",
+    "demo": "https://note-front.onrender.com",
+    "solution": [
+      "Formik + Yup for forms",
+      "JWT for auth",
+      "Responsive UI with notifications"
+    ],
+    "images": ["note-app-1.png", "note-app-2.png"]
+  },
+  {
+    "id": 13,
+    "thumb": "pizza-ordering-thumbnail.png",
+    "thumbFull": "pizza-ordering-full.png",
+    "tags": ["Web", "Vanilla JS", "Ordering", "UI"],
+    "title": "Pizza Ordering App",
+    "client": "Personal Project",
+    "date": "2023-02-01",
+    "service": "Web Development",
+    "address": "Cairo, Egypt",
+    "description": "Created a fun and simple pizza ordering app using Vanilla JS and Bootstrap with smooth UI interactions and a responsive layout.",
+    "background": "A practice project to simulate ordering UX using basic JS.",
+    "challenges": [
+      "Dynamic UI interactions",
+      "Responsive design",
+      "Form handling"
+    ],
+    "github": "https://github.com/AlbashengineerAhmed/pizza-Vanilla-JS.git",
+    "demo": "https://albashengineerahmed.github.io/pizza-Vanilla-JS/",
+    "solution": [
+      "Vanilla JS for interactivity",
+      "Bootstrap layout",
+      "Mobile-first UI"
+    ],
+    "images": ["pizza-ordering-1.png", "pizza-ordering-2.png"]
+  },
+  {
+    "id": 14,
+    "thumb": "xo-game-thumbnail.png",
+    "thumbFull": "xo-game-full.png",
+    "tags": ["Web", "React", "Game"],
+    "title": "XO Game",
+    "client": "Personal Project",
+    "date": "2023-01-05",
+    "service": "Frontend Game",
+    "address": "Cairo, Egypt",
+    "description": "Built an interactive Tic-Tac-Toe game using React. Responsive, fast, and fun UI with real-time player interaction.",
+    "background": "Practice project to learn state logic in React.",
+    "challenges": ["Game logic", "Responsive layout", "Real-time interaction"],
+    "github": "https://github.com/AlbashengineerAhmed/XO-Game-React.git",
+    "demo": "https://xo-game-1c4o.onrender.com/",
+    "solution": [
+      "React for dynamic state",
+      "Styled with Bootstrap",
+      "Smooth UI flow"
+    ],
+    "images": ["xo-game-1.png", "xo-game-2.png"]
+  }
+]
+
+
