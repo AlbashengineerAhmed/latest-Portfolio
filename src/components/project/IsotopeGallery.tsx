@@ -53,7 +53,7 @@ const IsotopeGallery = ({
     <>
       <div
         id="gallery-masonary"
-        className="gallery-items colums-3"
+        className="gallery-items colums-3 clearfix"
         ref={galleryRef}
       >
         {PortfolioData.slice(0, totalVisible).map((portfolio) => (
