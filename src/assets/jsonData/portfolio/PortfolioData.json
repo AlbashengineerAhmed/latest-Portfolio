@@ -1,6 +1,32 @@
 [
   {
-    "id": 1,
+  "id": 1,
+  "thumb": "medicare-thumb.png",
+  "thumbFull": "medicare-full.PNG",
+  "tags": ["React.js", "Tailwind CSS", "Healthcare", "Full Stack"],
+  "title": "Medicare – Comprehensive Healthcare Platform",
+  "client": "Personal Project",
+  "date": "2025-05-01",
+  "service": "Full Stack Web Development",
+  "address": "Remote",
+  "description": "Medicare is a full-stack healthcare web application developed using React.js and Tailwind CSS. The platform connects patients with doctors and administrators through a streamlined and responsive interface. Key features include role-based access control, secure authentication, appointment scheduling, and a doctor verification system. Designed with accessibility and modern UI practices in mind, Medicare offers a seamless and efficient healthcare experience.",
+  "background": "The goal of Medicare was to build a healthcare platform that simplifies communication and service management between patients and providers, especially in digital-first environments.",
+  "challenges": [
+    "Managing complex state transitions using React Context API",
+    "Designing reusable components while maintaining clarity",
+    "Creating a responsive design accessible across all device types"
+  ],
+  "github": "https://github.com/AlbashengineerAhmed/Medicare-frontend.git",
+  "demo": "https://medicare-frontend-azure.vercel.app/",
+  "solution": [
+    "Used React Context API for centralized and efficient state management",
+    "Built mobile-first responsive layouts with Tailwind CSS",
+    "Implemented secure authentication flows with password recovery options"
+  ],
+  "images": ["medicare-1.PNG", "medicare-2.png"]
+  },
+  {
+    "id": 2,
     "thumb": "rentora-thumb.png",
     "thumbFull": "rentora-full.png",
     "tags": ["Next.js", "Tailwind CSS", "Real Estate", "Frontend"],
@@ -26,7 +52,7 @@
     "images": ["rentora-1.png", "rentora-2.png"]
   },
   {
-    "id": 2,
+    "id": 3,
     "thumb": "ecommerce-thumbnail.png",
     "thumbFull": "ecommerce-full.png",
     "tags": ["Web", "React", "E-commerce", "Redux"],
@@ -52,7 +78,7 @@
     "images": ["ecommerce-1.png", "ecommerce-2.png"]
   },
   {
-    "id": 3,
+    "id": 4,
     "thumb": "facebook-clone-thumbnail.png",
     "thumbFull": "facebook-clone-full.png",
     "tags": ["Web", "React", "Social Media", "Redux"],
@@ -78,7 +104,7 @@
     "images": ["facebook-clone-1.png", "facebook-clone-2.png"]
   },
   {
-    "id": 4,
+    "id": 5,
     "thumb": "next-auth-supabase-thumbnail.png",
     "thumbFull": "next-auth-supabase-full.png",
     "tags": ["Next.js", "Supabase", "TypeScript", "TailwindCSS", "SSR"],
@@ -104,7 +130,7 @@
     "images": ["next-auth-1.png", "next-auth-2.png"]
   },
   {
-    "id": 5,
+    "id": 6,
     "thumb": "movie-app-thumbnail.png",
     "thumbFull": "movie-app-full.png",
     "tags": ["Web", "React", "Movie App"],
@@ -130,7 +156,7 @@
     "images": ["movie-app-1.png", "movie-app-2.png"]
   },
   {
-    "id": 6,
+    "id": 7,
     "thumb": "ecommerce-context-api-thumbnail.png",
     "thumbFull": "ecommerce-context-api-full.png",
     "tags": ["Web", "React", "E-commerce", "Context API"],
@@ -156,7 +182,7 @@
     "images": ["ecommerce-context-api-1.png", "ecommerce-context-api-2.png"]
   },
   {
-    "id": 7,
+    "id": 8,
     "thumb": "Furniture-Commerce-thumbnail.png",
     "thumbFull": "Furniture-Commerce-full.png",
     "tags": ["React", "Bootstrap"],
@@ -178,7 +204,7 @@
     "images": ["furniture-commerce-1.png", "furniture-commerce-1.png"]
   },
   {
-    "id": 8,
+    "id": 9,
     "thumb": "caferio-thumbnail.png",
     "thumbFull": "caferio-full.png",
     "tags": ["Web", "Tailwind", "JavaScript"],
@@ -200,7 +226,7 @@
     "images": ["caferio-1.png", "caferio-2.png"]
   },
   {
-    "id": 9,
+    "id": 10,
     "thumb": "newhome-thumbnail.png",
     "thumbFull": "newhome-full.png",
     "tags": ["Web", "HTML5", "CSS3", "Responsive Design", "FontAwesome"],
@@ -226,7 +252,7 @@
     "images": ["newhome-1.png", "newhome-2.png"]
   },
   {
-    "id": 10,
+    "id": 11,
     "thumb": "creative-agency-thumbnail.png",
     "thumbFull": "creative-agency-full.png",
     "tags": ["Web", "HTML", "CSS", "Bootstrap"],
@@ -252,7 +278,7 @@
     "images": ["creative-agency-1.png", "creative-agency-2.png"]
   },
   {
-    "id": 11,
+    "id": 12,
     "thumb": "educational-center-platform-thumbnail.png",
     "thumbFull": "educational-center-platform-full.png",
     "tags": ["Web", "React", "Education", "Platform"],
@@ -278,7 +304,7 @@
     "images": ["educational-center-1.png", "educational-center-2.png"]
   },
   {
-    "id": 12,
+    "id": 13,
     "thumb": "saraha-thumbnail.png",
     "thumbFull": "saraha-full.png",
     "tags": ["React", "JWT", "Axios", "Bootstrap", "Joi", "Moment.js"],
@@ -304,7 +330,7 @@
     "images": ["saraha-1.png", "saraha-2.png"]
   },
   {
-    "id": 13,
+    "id": 14,
     "thumb": "note-app-thumbnail.png",
     "thumbFull": "note-app-full.png",
     "tags": ["Web", "React", "Notes", "Formik", "Yup"],
@@ -326,7 +352,7 @@
     "images": ["note-app-1.png", "note-app-2.png"]
   },
   {
-    "id": 14,
+    "id": 15,
     "thumb": "pizza-ordering-thumbnail.png",
     "thumbFull": "pizza-ordering-full.png",
     "tags": ["Web", "Vanilla JS", "Ordering", "UI"],
@@ -352,7 +378,7 @@
     "images": ["pizza-ordering-1.png", "pizza-ordering-2.png"]
   },
   {
-    "id": 15,
+    "id": 16,
     "thumb": "xo-game-thumbnail.png",
     "thumbFull": "xo-game-full.png",
     "tags": ["Web", "React", "Game"],

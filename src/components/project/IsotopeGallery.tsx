@@ -24,20 +24,73 @@ const IsotopeGallery = ({
     : visibleImagesCount;
 
   useEffect(() => {
+    let iso: Isotope | null = null;
+
     if (galleryRef.current) {
-      const iso = new Isotope(galleryRef.current, {
+      // Initialize Isotope with better options for masonry layout
+      iso = new Isotope(galleryRef.current, {
         itemSelector: ".gallery-item",
         layoutMode: "masonry",
+        masonry: {
+          columnWidth: ".gallery-item",
+          gutter: 0,
+          horizontalOrder: true,
+        },
+        percentPosition: true,
       });
 
-      setTimeout(() => {
-        iso.layout();
-      }, 500);
+      // Add imagesLoaded event to recalculate layout after images are loaded
+      const imgLoad = () => {
+        // Get all images in the gallery
+        const images = galleryRef.current?.querySelectorAll('img') || [];
+        let loadedImages = 0;
 
-      return () => {
-        iso.destroy();
+        // If no images, just layout
+        if (images.length === 0) {
+          iso?.layout();
+          return;
+        }
+
+        // For each image, check if it's loaded
+        images.forEach((img) => {
+          if (img.complete) {
+            loadedImages++;
+            if (loadedImages === images.length) {
+              iso?.layout();
+            }
+          } else {
+            img.addEventListener('load', () => {
+              loadedImages++;
+              if (loadedImages === images.length) {
+                iso?.layout();
+              }
+            });
+
+            // Also handle error case
+            img.addEventListener('error', () => {
+              loadedImages++;
+              if (loadedImages === images.length) {
+                iso?.layout();
+              }
+            });
+          }
+        });
       };
+
+      // Initial layout
+      imgLoad();
+
+      // Also do a fallback layout after a timeout
+      setTimeout(() => {
+        iso?.layout();
+      }, 1000);
     }
+
+    return () => {
+      if (iso) {
+        iso.destroy();
+      }
+    };
   }, [totalVisible]);
 
   const handleLoadMore = () => {
@@ -59,10 +112,12 @@ const IsotopeGallery = ({
         {PortfolioData.slice(0, totalVisible).map((portfolio) => (
           <div className="gallery-item" key={portfolio.id}>
             <div className="gallery-style-one">
-              <img
-                src={`/assets/img/projects/${portfolio.thumb}`}
-                alt="Thumb"
-              />
+              <div className="image-container">
+                <img
+                  src={`/assets/img/projects/${portfolio.thumb}`}
+                  alt={portfolio.title}
+                />
+              </div>
               <div className="info">
                 <div className="overlay">
                   <div className="content">
