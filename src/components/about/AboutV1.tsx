@@ -63,7 +63,7 @@ const AboutV1 = () => {
                     <div className="counter">
                       <div className="timer">
                         {" "}
-                        <CountUp end={3} enableScrollSpy={true} />
+                        <CountUp end={1} enableScrollSpy={true} />
                       </div>
                       <div className="operator">+</div>
                     </div>
@@ -72,13 +72,16 @@ const AboutV1 = () => {
                   <div className="fun-fact">
                     <div className="counter">
                       <div className="timer">
-                        <CountUp end={40} enableScrollSpy={true} />
+                        <CountUp end={25} enableScrollSpy={true} />
                       </div>
                       <div className="operator">+</div>
                     </div>
                     <span className="medium">
-                      Projects completed on 30 countries
+                      Projects completed
                     </span>
+                    {/* <span className="medium">
+                      Projects completed on 30 countries
+                    </span> */}
                   </div>
                 </div>
                 <div className="clieents-list mt-40">
@@ -90,7 +93,8 @@ const AboutV1 = () => {
                       <img src={team17} alt="Image Not Found" />
                     </div>
                     <div className="info">
-                      <h5>20K+ Clients</h5>
+                      {/* <h5>20K+ Clients</h5> */}
+                      <h5>10+ Clients</h5>
                     </div>
                   </div>
                 </div>
@@ -127,7 +131,7 @@ const AboutV1 = () => {
                     <ModalVideo
                       channel="youtube"
                       isOpen={isOpen}
-                      videoId="An8w3wGnAyw"
+                      videoId="LD9XKY1OBYM"
                       onClose={() => setOpen(false)}
                     />
                   </div>
