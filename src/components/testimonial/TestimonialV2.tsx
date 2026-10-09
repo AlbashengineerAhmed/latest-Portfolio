@@ -52,7 +52,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
                                     <div className="swiper-wrapper">
                                         {/* Single item */}
                                         <SwiperSlide className="swiper-slide">
-                                            <div className="testimonial-style-one">
+                                            <div className="testimonial-style-one glass-card">
                                                 <div className="item">
                                                     <div className="thumb">
                                                         <div className="inner">
@@ -94,7 +94,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
 
                                         {/* Single item */}
                                         <SwiperSlide className="swiper-slide">
-                                            <div className="testimonial-style-one">
+                                            <div className="testimonial-style-one glass-card">
                                                 <div className="item">
                                                     <div className="thumb">
                                                         <div className="inner">
@@ -136,7 +136,7 @@ const TestimonialV2 = ({ sectionClass }: DataType) => {
 
                                         {/* Single item */}
                                         <SwiperSlide className="swiper-slide">
-                                            <div className="testimonial-style-one">
+                                            <div className="testimonial-style-one glass-card">
                                                 <div className="item">
                                                     <div className="thumb">
                                                         <div className="inner">

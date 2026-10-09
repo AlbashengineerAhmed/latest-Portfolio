@@ -111,7 +111,7 @@ const IsotopeGallery = ({
       >
         {PortfolioData.slice(0, totalVisible).map((portfolio) => (
           <div className="gallery-item" key={portfolio.id}>
-            <div className="gallery-style-one">
+            <div className="gallery-style-one glass-card">
               <div className="image-container">
                 <img
                   src={`/assets/img/projects/${portfolio.thumb}`}

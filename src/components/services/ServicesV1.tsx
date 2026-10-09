@@ -39,7 +39,7 @@ const ServicesV1 = ({ sectionClass, hasTitle }: DataType) => {
                         {ServicesData.map((service, index) => (
                             <div className={`col-xl-3 col-md-6 mb-30`} key={service.id}>
                                 <ReactWOW animation="fadeInUp">
-                                    <div className={`service-style-one-item ${activeIndex === index ? "active" : ""}`}
+                                    <div className={`service-style-one-item glass-card ${activeIndex === index ? "active glow-effect" : ""}`}
                                         onMouseEnter={() => handleMouseEnter(index)}
                                     >
                                         <img src={`/assets/img/icon/${service.icon}`} alt="Image Not Found" />

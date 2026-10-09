@@ -16,8 +16,8 @@ const Routers = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<Home />} ></Route>
-                <Route path="/home-dark" element={<HomeDark />} ></Route>
+                <Route path="/" element={<HomeDark />} ></Route>
+                <Route path="/home-light" element={<Home />} ></Route>
                 <Route path="/contact" element={<ContactPage />} ></Route>
                 <Route path="/pricing" element={<PricingPage />} ></Route>
                 <Route path="/blog-with-sidebar" element={<BlogWithSidebarPage />} ></Route>

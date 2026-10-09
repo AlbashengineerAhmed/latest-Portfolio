@@ -49,7 +49,7 @@ const AboutV1 = () => {
       <>
         <div
           id="about"
-          className="about-style-one-area bg-gray default-padding"
+          className="about-style-one-area default-padding"
         >
           <div className="shape-style-one">
             <img src={shape3} alt="Image Not Found" />
@@ -58,7 +58,7 @@ const AboutV1 = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-5">
-                <div className="fun-fact-style-one-items">
+                <div className="fun-fact-style-one-items glass-card">
                   <div className="fun-fact">
                     <div className="counter">
                       <div className="timer">
@@ -100,7 +100,7 @@ const AboutV1 = () => {
                 </div>
               </div>
               <div className="col-lg-7 pl-80 pl-md-15 pl-xs-15">
-                <div className="about-style-one-info">
+                <div className="about-style-one-info glass-card">
                   <p>
                     As a skilled web developer, I specialize in creating
                     responsive, user-friendly websites with a focus on modern

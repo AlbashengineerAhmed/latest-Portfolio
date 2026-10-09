@@ -54,8 +54,8 @@ const ContactV1 = ({ sectionClass }: DataType) => {
         className={`contact-style-one-area ${sectionClass ? sectionClass : ""}`}
       >
         <div className="container">
-          <div className="contact-style-one-items">
-            <h1 className="fixed-text">Contact Me</h1>
+          <div className="contact-style-one-items glass-card">
+            <h1 className="fixed-text glow-text">Contact Me</h1>
             <div className="row">
               <div className="col-lg-6">
                 <form className="contact-form" onSubmit={handleForm}>

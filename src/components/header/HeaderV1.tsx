@@ -1,6 +1,6 @@
 import logo from "/assets/img/logo.png";
 import ScrollMenu from "./ScrollMenu";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import useSidebarMenu from "../../hooks/useSidebarMenu";
 import useStickyMenu from "../../hooks/useStickyMenu";
 import useSubMenuToggle from "../../hooks/useSubMenuToggle";
@@ -11,6 +11,9 @@ const HeaderV1 = () => {
     const { isOpen, openMenu, closeMenu } = useSidebarMenu();
     const isMenuSticky = useStickyMenu();
     const toggleSubMenu = useSubMenuToggle();
+    const location = useLocation();
+
+    const isLightMode = location.pathname === "/home-light";
 
     return (
       <>
@@ -74,24 +77,7 @@ const HeaderV1 = () => {
                   data-in="fadeInDown"
                   data-out="fadeOutUp"
                 >
-                  <li className="dropdown">
-                    <Link
-                      to="#"
-                      className="dropdown-toggle active"
-                      data-toggle="dropdown"
-                      onClick={toggleSubMenu}
-                    >
-                      Home
-                    </Link>
-                    <ul className="dropdown-menu">
-                      <li>
-                        <Link to="/">Light Mode</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-dark">Dark Mode</Link>
-                      </li>
-                    </ul>
-                  </li>
+
                   <ScrollMenu closeMenu={closeMenu} />
                 </ul>
               </div>
@@ -99,6 +85,11 @@ const HeaderV1 = () => {
                 <div className="attr-right">
                   <div className="attr-nav attr-box">
                     <ul>
+                      <li>
+                        <Link to={isLightMode ? "/" : "/home-light"} className="theme-toggle-btn" style={{ display: 'flex', alignItems: 'center', height: '100%', padding: '0 15px' }}>
+                          {isLightMode ? <i className="fas fa-moon" style={{ fontSize: '20px', color: '#120f12' }} /> : <i className="fas fa-sun" style={{ fontSize: '20px', color: '#120f12' }} />}
+                        </Link>
+                      </li>
                       <ScrollContact closeMenu={closeMenu} />
                     </ul>
                   </div>

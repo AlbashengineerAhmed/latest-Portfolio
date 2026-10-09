@@ -15,25 +15,42 @@ const ResumeV1 = ({ sectionClass }: DataType) => {
           <div className="time-line-style-one-box">
             <div className="row guttex-xl">
               <div className="col-lg-6">
-                <h2>My Expertise</h2>
+                <h2 className="glow-text">My Expertise</h2>
                 <div className="time-style-one-items">
                   {/* Work Experience */}
                   <ReactWOW animation="fadeInUp">
-                    <div className="timeline-style-one-item">
+                    <div className="timeline-style-one-item glass-card glow-effect">
                       <div className="timeline-header">
                         <div className="left">
-                          <h4>Freelance Web Developer</h4>
-                          <p>Self-employed</p>
+                          <h4>Front-End Developer</h4>
+                          <p>Bites ERP Platform</p>
                         </div>
                         <div className="right">
-                          <span>1 year</span>
+                          <span>06/2025 – Present</span>
                         </div>
                       </div>
                       <div className="timeline-body">
                         <p>
-                          Designed and developed responsive websites using HTML,
-                          CSS, JavaScript, and modern frameworks like React and
-                          Next.js.
+                          Developed features for a large-scale ERP system integrated with a social media platform. Built reusable components using Next.js, React, TypeScript, Material-UI, and Tailwind.
+                        </p>
+                      </div>
+                    </div>
+                  </ReactWOW>
+
+                  <ReactWOW animation="fadeInUp">
+                    <div className="timeline-style-one-item glass-card glow-effect">
+                      <div className="timeline-header">
+                        <div className="left">
+                          <h4>Freelance Front-End Developer</h4>
+                          <p>Self-employed / Remote</p>
+                        </div>
+                        <div className="right">
+                          <span>08/2023 – 05/2025</span>
+                        </div>
+                      </div>
+                      <div className="timeline-body">
+                        <p>
+                          Developed modern web apps with React.js, Next.js, and Tailwind CSS, focusing on performance and responsive design. Integrated authentication, dashboards, and real-time data.
                         </p>
                       </div>
                     </div>
@@ -42,11 +59,11 @@ const ResumeV1 = ({ sectionClass }: DataType) => {
               </div>
 
               <div className="col-lg-6">
-                <h2>Education & Certifications</h2>
+                <h2 className="glow-text">Education & Certifications</h2>
                 <div className="time-style-one-items">
                   {/* Education */}
                   <ReactWOW animation="fadeInUp">
-                    <div className="timeline-style-one-item">
+                    <div className="timeline-style-one-item glass-card glow-effect">
                       <div className="timeline-header">
                         <div className="left">
                           <h4>Bachelor of Computer Science</h4>
@@ -67,7 +84,7 @@ const ResumeV1 = ({ sectionClass }: DataType) => {
 
                   {/* Certifications */}
                   <ReactWOW animation="fadeInUp">
-                    <div className="timeline-style-one-item">
+                    <div className="timeline-style-one-item glass-card glow-effect">
                       <div className="timeline-header">
                         <div className="left">
                           <h4>Front-End Developer</h4>
@@ -88,7 +105,7 @@ const ResumeV1 = ({ sectionClass }: DataType) => {
                   </ReactWOW>
 
                   <ReactWOW animation="fadeInUp">
-                    <div className="timeline-style-one-item">
+                    <div className="timeline-style-one-item glass-card glow-effect">
                       <div className="timeline-header">
                         <div className="left">
                           <h4>Front-End Developer</h4>
@@ -108,7 +125,7 @@ const ResumeV1 = ({ sectionClass }: DataType) => {
                   </ReactWOW>
 
                   <ReactWOW animation="fadeInUp">
-                    <div className="timeline-style-one-item">
+                    <div className="timeline-style-one-item glass-card glow-effect">
                       <div className="timeline-header">
                         <div className="left">
                           <h4>Full Stack Web Development</h4>
