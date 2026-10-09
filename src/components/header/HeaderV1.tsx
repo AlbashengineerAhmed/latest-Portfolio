@@ -3,14 +3,12 @@ import ScrollMenu from "./ScrollMenu";
 import { Link, useLocation } from "react-router-dom";
 import useSidebarMenu from "../../hooks/useSidebarMenu";
 import useStickyMenu from "../../hooks/useStickyMenu";
-import useSubMenuToggle from "../../hooks/useSubMenuToggle";
 import ScrollContact from "./ScrollContact";
 
 const HeaderV1 = () => {
 
     const { isOpen, openMenu, closeMenu } = useSidebarMenu();
     const isMenuSticky = useStickyMenu();
-    const toggleSubMenu = useSubMenuToggle();
     const location = useLocation();
 
     const isLightMode = location.pathname === "/home-light";
